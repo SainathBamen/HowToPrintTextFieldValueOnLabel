@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HowToPrintTextFieldValueOnLabel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Text" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iay-BZ-Qer">
+                                <rect key="frame" x="16" y="159" width="361" height="38.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gy7-T4-YBw">
+                                <rect key="frame" x="79" y="589" width="234" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="JTp-Ny-fGx"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Set Text">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="setTextBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="he0-nw-Zyj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7D-uC-QPC">
+                                <rect key="frame" x="79" y="668" width="234" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="Epz-eD-aGL"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Append Text">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appendTextBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bnl-iL-2iT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKA-9R-6oP">
+                                <rect key="frame" x="16" y="259" width="361" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="208" id="vzS-4u-kof"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                        <constraints>
+                            <constraint firstItem="iay-BZ-Qer" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="1Te-39-yfl"/>
+                            <constraint firstItem="Gy7-T4-YBw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="1m4-oV-w7B"/>
+                            <constraint firstItem="Gy7-T4-YBw" firstAttribute="leading" secondItem="r7D-uC-QPC" secondAttribute="leading" id="EI1-9f-UHs"/>
+                            <constraint firstItem="FKA-9R-6oP" firstAttribute="top" secondItem="iay-BZ-Qer" secondAttribute="bottom" constant="61.666666666666657" id="FPG-Ga-Vkr"/>
+                            <constraint firstItem="iay-BZ-Qer" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="L8D-WY-1RA"/>
+                            <constraint firstItem="Gy7-T4-YBw" firstAttribute="trailing" secondItem="r7D-uC-QPC" secondAttribute="trailing" id="Lf5-Jp-W22"/>
+                            <constraint firstItem="iay-BZ-Qer" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="ZmC-GU-Kpy"/>
+                            <constraint firstItem="Gy7-T4-YBw" firstAttribute="centerX" secondItem="iay-BZ-Qer" secondAttribute="centerX" id="cAF-yu-9pl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="r7D-uC-QPC" secondAttribute="bottom" constant="86" id="eTB-IA-KIc"/>
+                            <constraint firstItem="r7D-uC-QPC" firstAttribute="top" secondItem="Gy7-T4-YBw" secondAttribute="bottom" constant="15" id="gP2-zs-Mqb"/>
+                            <constraint firstItem="FKA-9R-6oP" firstAttribute="leading" secondItem="iay-BZ-Qer" secondAttribute="leading" id="xhw-EV-TRr"/>
+                            <constraint firstItem="FKA-9R-6oP" firstAttribute="trailing" secondItem="iay-BZ-Qer" secondAttribute="trailing" id="yTI-9b-TxD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myLabel" destination="FKA-9R-6oP" id="Wuk-tn-gjy"/>
+                        <outlet property="myTextField" destination="iay-BZ-Qer" id="Kan-aZ-qRD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113.74045801526717" y="4.9295774647887329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

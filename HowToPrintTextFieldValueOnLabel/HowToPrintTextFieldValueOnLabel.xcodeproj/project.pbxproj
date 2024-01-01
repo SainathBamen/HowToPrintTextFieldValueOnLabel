@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0481DD3C2B4147F00009FDC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481DD3B2B4147F00009FDC9 /* AppDelegate.swift */; };
+		0481DD3E2B4147F00009FDC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481DD3D2B4147F00009FDC9 /* SceneDelegate.swift */; };
+		0481DD402B4147F00009FDC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481DD3F2B4147F00009FDC9 /* ViewController.swift */; };
+		0481DD432B4147F00009FDC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0481DD412B4147F00009FDC9 /* Main.storyboard */; };
+		0481DD452B4147F30009FDC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0481DD442B4147F30009FDC9 /* Assets.xcassets */; };
+		0481DD482B4147F30009FDC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0481DD462B4147F30009FDC9 /* LaunchScreen.storyboard */; };
+		0481DD532B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481DD522B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelTests.swift */; };
+		0481DD5D2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481DD5C2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITests.swift */; };
+		0481DD5F2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481DD5E2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0481DD4F2B4147F40009FDC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0481DD302B4147F00009FDC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0481DD372B4147F00009FDC9;
+			remoteInfo = HowToPrintTextFieldValueOnLabel;
+		};
+		0481DD592B4147F40009FDC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0481DD302B4147F00009FDC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0481DD372B4147F00009FDC9;
+			remoteInfo = HowToPrintTextFieldValueOnLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0481DD382B4147F00009FDC9 /* HowToPrintTextFieldValueOnLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToPrintTextFieldValueOnLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0481DD3B2B4147F00009FDC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0481DD3D2B4147F00009FDC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0481DD3F2B4147F00009FDC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0481DD422B4147F00009FDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0481DD442B4147F30009FDC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0481DD472B4147F30009FDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0481DD492B4147F30009FDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0481DD4E2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToPrintTextFieldValueOnLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0481DD522B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPrintTextFieldValueOnLabelTests.swift; sourceTree = "<group>"; };
+		0481DD582B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToPrintTextFieldValueOnLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0481DD5C2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPrintTextFieldValueOnLabelUITests.swift; sourceTree = "<group>"; };
+		0481DD5E2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPrintTextFieldValueOnLabelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0481DD352B4147F00009FDC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0481DD4B2B4147F40009FDC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0481DD552B4147F40009FDC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0481DD2F2B4147F00009FDC9 = {
+			isa = PBXGroup;
+			children = (
+				0481DD3A2B4147F00009FDC9 /* HowToPrintTextFieldValueOnLabel */,
+				0481DD512B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelTests */,
+				0481DD5B2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITests */,
+				0481DD392B4147F00009FDC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0481DD392B4147F00009FDC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0481DD382B4147F00009FDC9 /* HowToPrintTextFieldValueOnLabel.app */,
+				0481DD4E2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelTests.xctest */,
+				0481DD582B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0481DD3A2B4147F00009FDC9 /* HowToPrintTextFieldValueOnLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0481DD3B2B4147F00009FDC9 /* AppDelegate.swift */,
+				0481DD3D2B4147F00009FDC9 /* SceneDelegate.swift */,
+				0481DD3F2B4147F00009FDC9 /* ViewController.swift */,
+				0481DD412B4147F00009FDC9 /* Main.storyboard */,
+				0481DD442B4147F30009FDC9 /* Assets.xcassets */,
+				0481DD462B4147F30009FDC9 /* LaunchScreen.storyboard */,
+				0481DD492B4147F30009FDC9 /* Info.plist */,
+			);
+			path = HowToPrintTextFieldValueOnLabel;
+			sourceTree = "<group>";
+		};
+		0481DD512B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				0481DD522B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelTests.swift */,
+			);
+			path = HowToPrintTextFieldValueOnLabelTests;
+			sourceTree = "<group>";
+		};
+		0481DD5B2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0481DD5C2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITests.swift */,
+				0481DD5E2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITestsLaunchTests.swift */,
+			);
+			path = HowToPrintTextFieldValueOnLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0481DD372B4147F00009FDC9 /* HowToPrintTextFieldValueOnLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0481DD622B4147F40009FDC9 /* Build configuration list for PBXNativeTarget "HowToPrintTextFieldValueOnLabel" */;
+			buildPhases = (
+				0481DD342B4147F00009FDC9 /* Sources */,
+				0481DD352B4147F00009FDC9 /* Frameworks */,
+				0481DD362B4147F00009FDC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowToPrintTextFieldValueOnLabel;
+			productName = HowToPrintTextFieldValueOnLabel;
+			productReference = 0481DD382B4147F00009FDC9 /* HowToPrintTextFieldValueOnLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0481DD4D2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0481DD652B4147F40009FDC9 /* Build configuration list for PBXNativeTarget "HowToPrintTextFieldValueOnLabelTests" */;
+			buildPhases = (
+				0481DD4A2B4147F40009FDC9 /* Sources */,
+				0481DD4B2B4147F40009FDC9 /* Frameworks */,
+				0481DD4C2B4147F40009FDC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0481DD502B4147F40009FDC9 /* PBXTargetDependency */,
+			);
+			name = HowToPrintTextFieldValueOnLabelTests;
+			productName = HowToPrintTextFieldValueOnLabelTests;
+			productReference = 0481DD4E2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0481DD572B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0481DD682B4147F40009FDC9 /* Build configuration list for PBXNativeTarget "HowToPrintTextFieldValueOnLabelUITests" */;
+			buildPhases = (
+				0481DD542B4147F40009FDC9 /* Sources */,
+				0481DD552B4147F40009FDC9 /* Frameworks */,
+				0481DD562B4147F40009FDC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0481DD5A2B4147F40009FDC9 /* PBXTargetDependency */,
+			);
+			name = HowToPrintTextFieldValueOnLabelUITests;
+			productName = HowToPrintTextFieldValueOnLabelUITests;
+			productReference = 0481DD582B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0481DD302B4147F00009FDC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0481DD372B4147F00009FDC9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0481DD4D2B4147F40009FDC9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0481DD372B4147F00009FDC9;
+					};
+					0481DD572B4147F40009FDC9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0481DD372B4147F00009FDC9;
+					};
+				};
+			};
+			buildConfigurationList = 0481DD332B4147F00009FDC9 /* Build configuration list for PBXProject "HowToPrintTextFieldValueOnLabel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0481DD2F2B4147F00009FDC9;
+			productRefGroup = 0481DD392B4147F00009FDC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0481DD372B4147F00009FDC9 /* HowToPrintTextFieldValueOnLabel */,
+				0481DD4D2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelTests */,
+				0481DD572B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0481DD362B4147F00009FDC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0481DD482B4147F30009FDC9 /* LaunchScreen.storyboard in Resources */,
+				0481DD452B4147F30009FDC9 /* Assets.xcassets in Resources */,
+				0481DD432B4147F00009FDC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0481DD4C2B4147F40009FDC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0481DD562B4147F40009FDC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0481DD342B4147F00009FDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0481DD402B4147F00009FDC9 /* ViewController.swift in Sources */,
+				0481DD3C2B4147F00009FDC9 /* AppDelegate.swift in Sources */,
+				0481DD3E2B4147F00009FDC9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0481DD4A2B4147F40009FDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0481DD532B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0481DD542B4147F40009FDC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0481DD5F2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITestsLaunchTests.swift in Sources */,
+				0481DD5D2B4147F40009FDC9 /* HowToPrintTextFieldValueOnLabelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0481DD502B4147F40009FDC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0481DD372B4147F00009FDC9 /* HowToPrintTextFieldValueOnLabel */;
+			targetProxy = 0481DD4F2B4147F40009FDC9 /* PBXContainerItemProxy */;
+		};
+		0481DD5A2B4147F40009FDC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0481DD372B4147F00009FDC9 /* HowToPrintTextFieldValueOnLabel */;
+			targetProxy = 0481DD592B4147F40009FDC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0481DD412B4147F00009FDC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0481DD422B4147F00009FDC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0481DD462B4147F30009FDC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0481DD472B4147F30009FDC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0481DD602B4147F40009FDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0481DD612B4147F40009FDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0481DD632B4147F40009FDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HowToPrintTextFieldValueOnLabel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.HowToPrintTextFieldValueOnLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0481DD642B4147F40009FDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HowToPrintTextFieldValueOnLabel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.HowToPrintTextFieldValueOnLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0481DD662B4147F40009FDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.HowToPrintTextFieldValueOnLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowToPrintTextFieldValueOnLabel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HowToPrintTextFieldValueOnLabel";
+			};
+			name = Debug;
+		};
+		0481DD672B4147F40009FDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.HowToPrintTextFieldValueOnLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HowToPrintTextFieldValueOnLabel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HowToPrintTextFieldValueOnLabel";
+			};
+			name = Release;
+		};
+		0481DD692B4147F40009FDC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.HowToPrintTextFieldValueOnLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowToPrintTextFieldValueOnLabel;
+			};
+			name = Debug;
+		};
+		0481DD6A2B4147F40009FDC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.HowToPrintTextFieldValueOnLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowToPrintTextFieldValueOnLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0481DD332B4147F00009FDC9 /* Build configuration list for PBXProject "HowToPrintTextFieldValueOnLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0481DD602B4147F40009FDC9 /* Debug */,
+				0481DD612B4147F40009FDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0481DD622B4147F40009FDC9 /* Build configuration list for PBXNativeTarget "HowToPrintTextFieldValueOnLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0481DD632B4147F40009FDC9 /* Debug */,
+				0481DD642B4147F40009FDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0481DD652B4147F40009FDC9 /* Build configuration list for PBXNativeTarget "HowToPrintTextFieldValueOnLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0481DD662B4147F40009FDC9 /* Debug */,
+				0481DD672B4147F40009FDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0481DD682B4147F40009FDC9 /* Build configuration list for PBXNativeTarget "HowToPrintTextFieldValueOnLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0481DD692B4147F40009FDC9 /* Debug */,
+				0481DD6A2B4147F40009FDC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0481DD302B4147F00009FDC9 /* Project object */;
+}
